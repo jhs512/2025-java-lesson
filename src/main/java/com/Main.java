@@ -1,6 +1,10 @@
 void main() {
-    String name = "Paul";
+    IO.print("name : ");
+    String name = IO.readln();
 
-    IO.println("이름 : " + name);
-    IO.println("이름 : %s".formatted(name));
+    IO.println("name : %s".formatted(name));
+
+    String hobby = IO.readln("hobby : ");
+
+    IO.println("hobby : %s".formatted(hobby));
 }
